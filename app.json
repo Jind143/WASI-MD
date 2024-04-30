@@ -25,14 +25,14 @@
       "required" :false 
     },
     "BOT_NAME": {
-      "description": " NAME FOR BOT",
+      "description": "Hasnain bot",
       "required" :false ,    
-      "value": "WASI MD"
+      "value": "Hasnain MD"
     }, 
     "IMAGE": {
       "description": "Image for bot",
       "required" :true,    
-      "value": "https://telegra.ph/file/da95ed969f943e4d61ca8.jpg"
+      "value": "https://telegra.ph/file/6bda75b9460eae784ea90.mp4"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -41,8 +41,8 @@
     },  
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responding (After deployement!)",
-      "required" :true,    
-      "value": "true"
+      "required" :false,    
+      "value": "false"
     }, 
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
@@ -87,12 +87,12 @@
     "READ_MESSAGE": {
       "description": "Fill the value true if you want bot to read all messages that is auto blue ticks.",
       "required" :true,
-      "value": "false"
+      "value": "true"
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm, Take it false if you wanna run bot in your pm (if MODE is Public)",
-      "value": "true",
-      "required" :true
+      "value": "false",
+      "required" :false
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot.",
@@ -102,7 +102,7 @@
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
       "required" :true,
-      "value": "923135673658"
+      "value": "923101699985"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -131,12 +131,12 @@
       "value": "private"
     },
     "PACK_NAME": {
-      "description": "Put Sticker Pack_Name.",
+      "description": "powerd by Hasnain.",
       "value": "wasi👋",
       "required": true 
     },
     "PACK_AUTHER": {
-      "description": "Put Sticker Author_Name.",
+      "description": "power by Hasnain.",
       "value": "Md",
       "required": true 
     }
